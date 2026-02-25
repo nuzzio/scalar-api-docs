@@ -42,9 +42,9 @@ This will:
 
 ## Requirements
 
-- **Python 3.x** (pre-installed on macOS/Linux)
-- **PyYAML** (installed automatically if missing)
-- **GitHub CLI** (`gh`) only if downloading from GitHub. Not needed when using `-f`.
+- **Python 3.x** and **pip3**. Pre-installed on most macOS/Linux systems. If missing: `brew install python3`
+- **PyYAML**. Installed automatically by `serve.sh` if missing. Or install manually: `pip3 install pyyaml`
+- **GitHub CLI** (`gh`). Only needed if downloading from GitHub. Not needed when using `-f`. Install: `brew install gh`
 
 ## What it produces
 
